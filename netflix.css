@@ -1,0 +1,270 @@
+*{
+    margin: o;
+    padding: 0;
+    font-family: "Netflix Sans", "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;
+}
+.mine{
+    background-image: url(background.jpeg);
+    height: 100vh;
+    /* background-repeat: no-repeat; */
+    /* background-size: cover; */
+    /* justify-content: right;  */
+    /* width: 100%; */
+    /* margin-top: 50px; */
+    display: flex;
+    flex-direction: column;
+}
+.yours{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    gap: 800px;
+    margin-top: 10px;
+}
+.yours button{
+    height: 40px;
+    width: 90px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+.cable{
+    margin-top: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    flex-direction: column;
+
+}
+.mat{
+    align-items: center;
+    justify-content: center;
+    /* margin-top: 300px; */
+    display: flex;
+    gap: 5px;
+    margin-top: 50px;
+   
+}
+.mat input{
+    height: 40px;
+    width: 300px;
+
+}
+.mat button{
+    height: 44px;
+    width: 150px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+
+}
+.toy{
+    color: white; 
+    align-items: center;
+    background-color: black;
+    border-top: 10px solid gray;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+.toy p{
+    font-weight: bold;
+    color: white;
+    font-size: 25px;
+    align-items: center;
+}
+.rock{
+    padding: 30px;
+    margin-left: 50px;
+}
+.rock h1{
+    font-size: 48px;
+}
+.wire{
+    color: white;
+    align-items: center;
+    background-color: black;
+    border-top: 10px solid grey;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+   
+}
+.wire h1{
+    font-size: 48px;
+    
+       
+}
+.cord{
+    color: white;
+    align-items: center;
+    background-color: black;
+    border-top: 10px solid gray;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+.wires{
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    margin-bottom: 50px;
+    text-align: center;
+
+}
+.fast{
+    color: white;
+    align-items: center;
+    background-color: black;
+    border-top: 10px solid grey;
+    width: 100%;
+    height: 100vh;
+    display: flex;    
+}
+.slow{
+    align-items: center;
+}
+.slow h1{
+    font-size: 50px;
+}
+.slow p{
+    font-size: 30px;
+}
+.command{
+    color: white;
+    align-items: center;
+    background-color: black;
+    border-top: 10px solid grey;
+    width: 100%;
+    height: 220vh;
+    display: flex;
+    justify-content: center;
+}
+.order{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.order h1{
+    font-size: 51px;
+    font-weight: bold;
+    margin-top: 40px;
+}
+.first-button{
+    display: flex;
+    align-items: center;
+    width: 992px;
+    padding: 25px;
+    background-color: #2d2d2d;
+    color: white;
+    border: none;
+    justify-content: space-between;
+    font-weight: 500px;
+    font-size: 24px;
+}
+.dropdown{
+    width: 943px;
+    padding: 25px;
+    background-color: #2d2d2d;
+    color: white;
+    margin-top: 6px;
+    display: none;
+}
+.Acceept:focus-within .dropdown{
+    display: block;
+}
+.Acceept{
+    margin-top: 4px;
+    font-size: 24px;
+}
+#cross{
+    display: block;
+    align-items: center;
+    font-size: 30px;    
+}
+#notag{
+    display: none;
+    font: 30px;
+}
+.Acceept:focus-within #cross{
+    display: none;
+}
+.Acceept:focus-within #notag{
+    display: block;
+}
+
+.khalid{
+    text-align: center;
+    margin-top: 30px;
+}
+.Olmo-input{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 7px;
+    margin-top: 20px;
+    margin-bottom: 70px;
+}
+.Olmo-input input{
+    width: 350px;
+    height: 57px;
+    border-radius: 4px;
+    background-color: rgba(58, 57, 57, 0.103);
+}
+.Olmo-input button{
+    width: 180px;
+    height: 60px;
+    border: none;
+    background-color: red;
+    color: white;
+    border-radius: 4px;
+    font-weight: bold;
+    font-size: 25px;
+    text-align: center;
+    /* display: flex; */
+    
+}
+.tenth{
+    background-color: black;
+    height: 65vh;
+    display: flex;
+    justify-content: left;
+    align-items: 100px;
+    margin-right: 100px;
+    width: 100%;
+    /* padding-left: 300px; */
+    border-top: 10px solid grey;
+}
+.row1{
+    display: inline-block;
+    color: white;
+    padding-top: 50px;
+    padding-left: 200px;
+
+}
+.row4{
+    display: inline-block;
+    color: white;
+    padding-top: 30px;
+    padding-left: 200px;
+}
+.row3{
+    display: inline-block;
+    color: white;
+    padding-top: 50px;
+    padding-left: 200px;
+}
+.row2{
+    display: inline-block;
+    color: white;
+    padding-top: 50px;
+    padding-left: 200px;
+
+}
+
+    
+
