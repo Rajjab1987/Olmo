@@ -16,10 +16,10 @@
 }
 .yours{
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items:center;
-    gap: 800px;
-    margin-top: 10px;
+    /* gap: 800px;
+    margin-top: 10px; */
 }
 .yours button{
     height: 40px;
